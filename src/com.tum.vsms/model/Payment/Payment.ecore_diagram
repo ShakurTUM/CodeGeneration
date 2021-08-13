@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_vlJNUPvWEeu1mIkM2eXlaA" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_wXc0APvWEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wXfQQPvWEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wXfQQfvWEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_yRHEUPvWEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Payment/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yRHEUfvWEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_saJv0PwJEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Payment/reservationId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_saJv0fwJEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-jV34PwLEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Payment/amount"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-jV34fwLEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="__9wncPwLEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Payment/payment_date"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__9wncfwLEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_CLxXIPwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Payment/description"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CLx-MPwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_rrFGgPwNEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Payment/status"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rrFGgfwNEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wXfQQvvWEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wXfQQ_vWEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wXf3U_vWEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wXf3VPvWEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wXf3VfvWEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//Payment"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXdbEPvWEeu1mIkM2eXlaA" x="520" y="288" width="161" height="133"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_G6FgYPwMEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G6IjsPwMEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_G6IjsfwMEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_INvgoPwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_INvgofwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_LoCdQPwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/customer_name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LoCdQfwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_OtZrsPwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/customer_address"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OtZrsfwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ftPQ8PwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/duration"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ftPQ8fwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_hjK30PwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/startDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hjK30fwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_jbBxUPwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/endDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jbBxUfwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_lodSMPwMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Invoice/totalCost"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lodSMfwMEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_G6IjsvwMEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_G6Ijs_wMEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//Invoice"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G6FgYfwMEeu1mIkM2eXlaA" x="832" y="184" width="161" height="137"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vTraUPwMEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vTraUvwMEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vTraU_wMEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vTraVPwMEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vTraVfwMEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vTraVvwMEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vTraV_wMEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vTraWPwMEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_vTraWfwMEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_vTraWvwMEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_vTraW_wMEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//Customer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vTraUfwMEeu1mIkM2eXlaA" x="232" y="152" width="109"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zjTccPwMEeu1mIkM2eXlaA" type="2005" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zjTccvwMEeu1mIkM2eXlaA" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zjTcc_wMEeu1mIkM2eXlaA" type="7011">
+      <children xmi:type="notation:Node" xmi:id="_1d_ngPwMEeu1mIkM2eXlaA" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Payment.ecore#//PaymentStatus/Paid"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1d_ngfwMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_57Fd4PwMEeu1mIkM2eXlaA" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Payment.ecore#//PaymentStatus/Pending"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_57Fd4fwMEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zjTcdPwMEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zjTcdfwMEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zjTcdvwMEeu1mIkM2eXlaA" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zjTcd_wMEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zjTcePwMEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="Payment.ecore#//PaymentStatus"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zjTccfwMEeu1mIkM2eXlaA" x="384" y="68" width="121" height="73"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ED6IAPwNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ED9LUPwNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ED9LUfwNEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_38WOYPwOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Cash/address"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_38W1cPwOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_IBV8APwPEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Cash/customerName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IBV8AfwPEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ED9LUvwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ED9LU_wNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ED9LVPwNEeu1mIkM2eXlaA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_eYyCoPwQEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Payment.ecore#//Cash/authorization"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eYyCofwQEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ED9LVfwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ED9LVvwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ED9LV_wNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ED9LWPwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ED9LWfwNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//Cash"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ED6IAfwNEeu1mIkM2eXlaA" x="328" y="540" width="149" height="93"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Gufe8PwNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Gufe8vwNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_GugGAPwNEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_NWkUQPwPEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//CreditCard/cardholderName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NWkUQfwPEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_VbAPUPwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//CreditCard/cardNumber"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VbAPUfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_XTgpEPwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//CreditCard/cvv"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XTgpEfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_YpBDcPwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//CreditCard/expirationDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YpBDcfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GugGAfwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GugGAvwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_GugGA_wNEeu1mIkM2eXlaA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_dHI0kPwQEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Payment.ecore#//CreditCard/authorization"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dHI0kfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GugGBPwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GugGBfwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_GugGBvwNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_GugGB_wNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_GugGCPwNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//CreditCard"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gufe8fwNEeu1mIkM2eXlaA" x="544" y="544" width="145" height="89"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ImSuEPwNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ImSuEvwNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ImSuE_wNEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_gPj-EPwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Bank/accountNumber"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gPj-EfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_olaOsPwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Bank/IBAN"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_olaOsfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_v35k4PwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Bank/password"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v35k4fwQEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ImSuFPwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ImSuFfwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ImSuFvwNEeu1mIkM2eXlaA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_ykjYYPwQEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Payment.ecore#//Bank/authorization"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ykjYYfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ImSuF_wNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ImSuGPwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ImSuGfwNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ImSuGvwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ImSuG_wNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//Bank"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ImSuEfwNEeu1mIkM2eXlaA" x="732" y="544" width="165" height="89"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Kdp4UPwNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kdp4UvwNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Kdp4U_wNEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_sWdwYPwOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//PromoCode/code"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sWdwYfwOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_uRkyMPwOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//PromoCode/expirationDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uRkyMfwOEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Kdp4VPwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Kdp4VfwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Kdp4VvwNEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Kdp4V_wNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Kdp4WPwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KdqfYPwNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_KdqfYfwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_KdqfYvwNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//PromoCode"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kdp4UfwNEeu1mIkM2eXlaA" x="884" y="424" width="145" height="93"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_MBx9gPwNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MBx9gvwNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MBx9g_wNEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_p4TE0PwOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Paypal/email"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p4TE0fwOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_KDeWYPwQEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Payment.ecore#//Paypal/password"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KDeWYfwQEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MBx9hPwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MBx9hfwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MBx9hvwNEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MBx9h_wNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MBx9iPwNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MBx9ifwNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MBx9ivwNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MBx9i_wNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Payment.ecore#//Paypal"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MBx9gfwNEeu1mIkM2eXlaA" x="148" y="376" width="133" height="77"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_vlJNUfvWEeu1mIkM2eXlaA"/>
+  <element xmi:type="ecore:EPackage" href="Payment.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_V1iWkPwNEeu1mIkM2eXlaA" type="4004" source="_Kdp4UPwNEeu1mIkM2eXlaA" target="_wXc0APvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_V1iWkfwNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V1iWkvwNEeu1mIkM2eXlaA" points="[6, -1, 280, 59]$[6, -41, 280, 19]$[6, -60, 280, 0]$[-273, -60, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V1pEQPwNEeu1mIkM2eXlaA" id="(0.4857142857142857,0.011764705882352941)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V1prUPwNEeu1mIkM2eXlaA" id="(0.9937888198757764,0.5811965811965812)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZgBEQPwNEeu1mIkM2eXlaA" type="4004" source="_ImSuEPwNEeu1mIkM2eXlaA" target="_wXc0APvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZgBEQfwNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZgBEQvwNEeu1mIkM2eXlaA" points="[0, 0, 124, 134]$[-117, -127, 7, 7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZgC5cPwNEeu1mIkM2eXlaA" id="(0.42857142857142855,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZgC5cfwNEeu1mIkM2eXlaA" id="(0.8260869565217391,0.9401709401709402)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_aXgs8PwNEeu1mIkM2eXlaA" type="4004" source="_Gufe8PwNEeu1mIkM2eXlaA" target="_wXc0APvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_aXgs8fwNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aXgs8vwNEeu1mIkM2eXlaA" points="[-6, 0, 16, 126]$[-6, -116, 16, 10]$[-6, -123, 16, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aXiiIPwNEeu1mIkM2eXlaA" id="(0.4036697247706422,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aXiiIfwNEeu1mIkM2eXlaA" id="(0.37267080745341613,0.9829059829059829)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_c5rHsPwNEeu1mIkM2eXlaA" type="4004" source="_ED6IAPwNEeu1mIkM2eXlaA" target="_wXc0APvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_c5rHsfwNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c5rHsvwNEeu1mIkM2eXlaA" points="[0, -5, -112, 162]$[0, -167, -112, 0]$[110, -167, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c5ruwPwNEeu1mIkM2eXlaA" id="(0.47619047619047616,0.053763440860215055)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c5ruwfwNEeu1mIkM2eXlaA" id="(0.012422360248447204,0.6666666666666666)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hZY0QPwNEeu1mIkM2eXlaA" type="4004" source="_MBx9gPwNEeu1mIkM2eXlaA" target="_wXc0APvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_hZY0QfwNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hZY0QvwNEeu1mIkM2eXlaA" points="[-6, -1, -313, 32]$[-6, -41, -313, -8]$[306, -41, -1, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hZZbUPwNEeu1mIkM2eXlaA" id="(0.4954128440366973,0.011235955056179775)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hZZbUfwNEeu1mIkM2eXlaA" id="(0.006211180124223602,0.37606837606837606)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pfNr4PwNEeu1mIkM2eXlaA" type="4002" source="_wXc0APvWEeu1mIkM2eXlaA" target="_vTraUPwMEeu1mIkM2eXlaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pfOS8PwNEeu1mIkM2eXlaA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pfOS8fwNEeu1mIkM2eXlaA" x="39" y="-28"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pfOS8vwNEeu1mIkM2eXlaA" visible="false" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pfOS8_wNEeu1mIkM2eXlaA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pfNr4fwNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Payment.ecore#//Payment/customer"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pfNr4vwNEeu1mIkM2eXlaA" points="[0, 0, 230, 71]$[-229, -72, 1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pfUZkPwNEeu1mIkM2eXlaA" id="(0.2857142857142857,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pfUZkfwNEeu1mIkM2eXlaA" id="(0.9908256880733946,0.40384615384615385)"/>
+  </edges>
+</notation:Diagram>

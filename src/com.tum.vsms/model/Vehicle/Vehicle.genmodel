@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.tum.vsms/src" modelPluginID="com.tum.vsms"
+    modelName="Vehicle" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>Vehicle.ecore</foreignModel>
+  <genPackages prefix="Vehicle" basePackage="com.tum.vsms.model" disposableProviderFactory="true"
+      ecorePackage="Vehicle.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Vehicle.ecore#//FuelType">
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//FuelType/Petrol"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//FuelType/Diesel"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//FuelType/Octane"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//FuelType/Gasoline"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Vehicle.ecore#//VehicleType">
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/Economy"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/Compact"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/MidSize"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/FullSize"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/Premium"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/Luxary"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/Suv"/>
+      <genEnumLiterals ecoreEnumLiteral="Vehicle.ecore#//VehicleType/Van"/>
+    </genEnums>
+    <genClasses ecoreClass="Vehicle.ecore#//Vehicle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/vehicleType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/license"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/registration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/brand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/model"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/year"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/color"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/availableSeat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/additionalSeat"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Vehicle/vehicleId"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Vehicle.ecore#//Vehicle/position"/>
+    </genClasses>
+    <genClasses ecoreClass="Vehicle.ecore#//Electric">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Electric/batteryState"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Electric/capacity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Electric/charger"/>
+    </genClasses>
+    <genClasses ecoreClass="Vehicle.ecore#//Traditional">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Traditional/capacity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Traditional/fuelType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Traditional/currentFuelLevel"/>
+    </genClasses>
+    <genClasses ecoreClass="Vehicle.ecore#//Position">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Position/locationName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Position/latitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Vehicle.ecore#//Position/longitude"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

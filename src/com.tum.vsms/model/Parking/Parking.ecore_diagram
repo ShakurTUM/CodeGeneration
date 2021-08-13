@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_DLFHkPvWEeu1mIkM2eXlaA" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_E2drUPvWEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E2e5cPvWEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E2fggPvWEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_F4H8oPvWEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//Parking/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_F4IjsPvWEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_SGPQkPvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//Parking/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SGPQkfvcEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_UI6S8PvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//Parking/availableVehicles"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UI6S8fvcEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_X-Ra8PvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//Parking/maximumCapacity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_X-Ra8fvcEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E2fggfvWEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E2fggvvWEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E2fgg_vWEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E2fghPvWEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E2fghfvWEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_E2fghvvWEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_E2fgh_vWEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_E2fgiPvWEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//Parking"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E2eSYPvWEeu1mIkM2eXlaA" x="484" y="208" width="149" height="129"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_OwPakPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OwQBoPvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_OwQosPvbEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OwQosfvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OwQosvvbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//Vehicle"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OwPakfvbEeu1mIkM2eXlaA" x="244" y="136" width="126" height="41"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_SePWUPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SePWUvvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SePWWfvbEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SePWWvvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SePWW_vbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//Customer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SePWUfvbEeu1mIkM2eXlaA" x="784" y="220" width="98" height="37"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_UVFjMPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UVFjMvvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_UVFjOfvbEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_UVFjOvvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_UVFjO_vbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//Location"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UVFjMfvbEeu1mIkM2eXlaA" x="784" y="304" width="102" height="45"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_druicPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_druicvvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_druic_vbEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_druidPvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_druidfvbEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_druidvvbEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_druid_vbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_druiePvbEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_drvJgPvbEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_drvJgfvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_drvJgvvbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//Traditional"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_druicfvbEeu1mIkM2eXlaA" x="288" y="448" width="117" height="73"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_gyVHAPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gyamkPvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_gyb0sPvbEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_dy8IQPvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//ChargingStation/chargingEnabled"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dy8IQfvcEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_gEsIcPvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//ChargingStation/capacity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gEsIcfvcEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ke8tQPvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//ChargingStation/rate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ke8tQfvcEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gyb0sfvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gyb0svvbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//ChargingStation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gyVHAfvbEeu1mIkM2eXlaA" x="464" y="456" width="137" height="77"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jrCZgPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jrDAkPvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jrDAkfvbEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_omi0wPvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//FuelingStation/fuelEnabled"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_omi0wfvcEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_qfHf8PvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//FuelingStation/capacity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qfIHAPvcEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_smVEEPvcEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Parking.ecore#//FuelingStation/rate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_smVEEfvcEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jrDAkvvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jrDAk_vbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//FuelingStation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jrCZgfvbEeu1mIkM2eXlaA" x="632" y="444" width="153" height="77"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nYFTAPvbEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nYFTAvvbEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_nYFTA_vbEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_nYFTBPvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_nYFTBfvbEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_nYFTBvvbEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_nYFTB_vbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_nYFTCPvbEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_nYFTCfvbEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_nYFTCvvbEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_nYFTC_vbEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Parking.ecore#//Anywhere"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nYFTAfvbEeu1mIkM2eXlaA" x="240" y="304" width="106" height="77"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_DLFHkfvWEeu1mIkM2eXlaA"/>
+  <element xmi:type="ecore:EPackage" href="Parking.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_rV5MYPvbEeu1mIkM2eXlaA" type="4004" source="_nYFTAPvbEeu1mIkM2eXlaA" target="_E2drUPvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_rV5MYfvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rV5MYvvbEeu1mIkM2eXlaA" points="[0, 0, -146, 46]$[138, -44, -8, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rWIc8PvbEeu1mIkM2eXlaA" id="(1.0,0.4155844155844156)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rWIc8fvbEeu1mIkM2eXlaA" id="(0.053691275167785234,0.6356589147286822)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sKy0EPvbEeu1mIkM2eXlaA" type="4004" source="_druicPvbEeu1mIkM2eXlaA" target="_E2drUPvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sKy0EfvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sKy0EvvbEeu1mIkM2eXlaA" points="[0, 0, -83, 149]$[79, -146, -4, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sK0pQPvbEeu1mIkM2eXlaA" id="(1.0,0.4520547945205479)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sK0pQfvbEeu1mIkM2eXlaA" id="(0.026845637583892617,0.9612403100775194)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tDf9sPvbEeu1mIkM2eXlaA" type="4004" source="_gyVHAPvbEeu1mIkM2eXlaA" target="_E2drUPvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_tDf9sfvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tDf9svvbEeu1mIkM2eXlaA" points="[0, 0, -52, 115]$[51, -111, -1, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tDhL0PvbEeu1mIkM2eXlaA" id="(0.32116788321167883,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tDhL0fvbEeu1mIkM2eXlaA" id="(0.42953020134228187,0.9689922480620154)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_t6f3IPvbEeu1mIkM2eXlaA" type="4004" source="_jrCZgPvbEeu1mIkM2eXlaA" target="_E2drUPvWEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_t6f3IfvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t6f3IvvbEeu1mIkM2eXlaA" points="[-33, -32, 113, 110]$[-145, -139, 1, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t6hsUPvbEeu1mIkM2eXlaA" id="(1.0,0.4155844155844156)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t6hsUfvbEeu1mIkM2eXlaA" id="(0.7181208053691275,0.9767441860465116)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_v4fN0PvbEeu1mIkM2eXlaA" type="4002" source="_E2drUPvWEeu1mIkM2eXlaA" target="_UVFjMPvbEeu1mIkM2eXlaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v4f04PvbEeu1mIkM2eXlaA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v4gb8PvbEeu1mIkM2eXlaA" x="34" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_v4gb8fvbEeu1mIkM2eXlaA" visible="false" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v4gb8vvbEeu1mIkM2eXlaA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_v4fN0fvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Parking.ecore#//Parking/location"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v4fN0vvbEeu1mIkM2eXlaA" points="[0, 0, -151, -60]$[151, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4sCIPvbEeu1mIkM2eXlaA" id="(1.0,0.27906976744186046)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v4sCIfvbEeu1mIkM2eXlaA" id="(0.0,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yWVwUPvbEeu1mIkM2eXlaA" type="4002" source="_E2drUPvWEeu1mIkM2eXlaA" target="_SePWUPvbEeu1mIkM2eXlaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yWYzoPvbEeu1mIkM2eXlaA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yWYzofvbEeu1mIkM2eXlaA" x="14" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_yWYzovvbEeu1mIkM2eXlaA" visible="false" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yWYzo_vbEeu1mIkM2eXlaA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yWVwUfvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Parking.ecore#//Parking/customer"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yWVwUvvbEeu1mIkM2eXlaA" points="[0, 0, -152, 13]$[151, -14, -1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yWndIPvbEeu1mIkM2eXlaA" id="(1.0,0.26356589147286824)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yWndIfvbEeu1mIkM2eXlaA" id="(0.01020408163265306,0.24324324324324326)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1D5iwPvbEeu1mIkM2eXlaA" type="4002" source="_E2drUPvWEeu1mIkM2eXlaA" target="_OwPakPvbEeu1mIkM2eXlaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1D6J0PvbEeu1mIkM2eXlaA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1D6J0fvbEeu1mIkM2eXlaA" x="26" y="-16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1D6J0vvbEeu1mIkM2eXlaA" visible="false" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1D6J0_vbEeu1mIkM2eXlaA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1D5iwfvbEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Parking.ecore#//Parking/vehicle"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1D5iwvvbEeu1mIkM2eXlaA" points="[0, 0, 166, 61]$[-160, -62, 6, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1D7_APvbEeu1mIkM2eXlaA" id="(0.3087248322147651,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1D7_AfvbEeu1mIkM2eXlaA" id="(0.9523809523809523,0.2682926829268293)"/>
+  </edges>
+</notation:Diagram>

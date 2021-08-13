@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Parking" nsURI="com.tum.vsms.Parking" nsPrefix="com.tum.vsms.Parking">
+  <eClassifiers xsi:type="ecore:EClass" name="Parking">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="#//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="customer" eType="#//Customer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vehicle" eType="#//Vehicle"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="availableVehicles" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumCapacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Vehicle"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Customer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Location"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Traditional" eSuperTypes="#//Parking"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ChargingStation" eSuperTypes="#//Parking">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chargingEnabled" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="capacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FuelingStation" eSuperTypes="#//Parking">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fuelEnabled" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="capacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Anywhere" eSuperTypes="#//Parking"/>
+</ecore:EPackage>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.tum.vsms/src" modelPluginID="com.tum.vsms"
+    modelName="User" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>User.ecore</foreignModel>
+  <genPackages prefix="User" basePackage="com.tum.vsms.model" disposableProviderFactory="true"
+      ecorePackage="User.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="User.ecore#//Role">
+      <genEnumLiterals ecoreEnumLiteral="User.ecore#//Role/Manager"/>
+      <genEnumLiterals ecoreEnumLiteral="User.ecore#//Role/DBAdmin"/>
+      <genEnumLiterals ecoreEnumLiteral="User.ecore#//Role/HumanResource"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="User.ecore#//Level">
+      <genEnumLiterals ecoreEnumLiteral="User.ecore#//Level/Level1"/>
+      <genEnumLiterals ecoreEnumLiteral="User.ecore#//Level/Level2"/>
+      <genEnumLiterals ecoreEnumLiteral="User.ecore#//Level/Level3"/>
+    </genEnums>
+    <genClasses ecoreClass="User.ecore#//User">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/email"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/age"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/gender"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/phone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//User/password"/>
+    </genClasses>
+    <genClasses ecoreClass="User.ecore#//Address">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Address/houseNumber"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Address/street"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Address/city"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Address/zipcode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Address/country"/>
+    </genClasses>
+    <genClasses ecoreClass="User.ecore#//Admin">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Admin/role"/>
+      <genOperations ecoreOperation="User.ecore#//Admin/adminOperation"/>
+    </genClasses>
+    <genClasses ecoreClass="User.ecore#//Customer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Customer/drivingLicense"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Customer/passport"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Customer/insurance"/>
+      <genOperations ecoreOperation="User.ecore#//Customer/login"/>
+      <genOperations ecoreOperation="User.ecore#//Customer/logout"/>
+      <genOperations ecoreOperation="User.ecore#//Customer/register"/>
+    </genClasses>
+    <genClasses ecoreClass="User.ecore#//Operative">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute User.ecore#//Operative/position"/>
+      <genOperations ecoreOperation="User.ecore#//Operative/maintenanceOperation"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

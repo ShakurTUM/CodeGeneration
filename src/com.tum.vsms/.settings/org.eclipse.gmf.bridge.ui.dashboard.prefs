@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/com.tum.vsms/model/users.genmodel
+gmf_dashboard/domainModel=platform\:/resource/com.tum.vsms/model/Users.ecore
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/com.tum.vsms/model/userManagement.gmfgraph
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/com.tum.vsms/model/userManagement.gmftool

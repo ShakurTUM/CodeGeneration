@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Maintenance" nsURI="com.tum.vsms.Maintenance" nsPrefix="com.tum.vsms.Maintenance">
+  <eClassifiers xsi:type="ecore:EClass" name="Maintenance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="reservationId" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="customerId" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="status" eType="#//MaintenanceStatus"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cost" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start_date" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="end_date" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredManpower" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vehicle" eType="#//Vehicle"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="#//Location"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="MaintenanceStatus">
+    <eLiterals name="Started"/>
+    <eLiterals name="Current"/>
+    <eLiterals name="Completed"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Vehicle" instanceTypeName="vehicle"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Location"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Repair" eSuperTypes="#//Maintenance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="issueDetails" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredTools" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="materials" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recharge" eSuperTypes="#//Maintenance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredCharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="amount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentCharge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Refuel" eSuperTypes="#//Maintenance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentFuel" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredFuel" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fuelType" eType="#//FuelType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="amount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relocate" eSuperTypes="#//Maintenance">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="destination" eType="#//Location"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="FuelType">
+    <eLiterals name="Petrol"/>
+    <eLiterals name="Diesel"/>
+    <eLiterals name="Octane" literal="Octane"/>
+    <eLiterals name="Gasoline"/>
+  </eClassifiers>
+</ecore:EPackage>

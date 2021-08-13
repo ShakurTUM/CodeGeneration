@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_yegP0PvFEeu1mIkM2eXlaA" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_6vP-APvFEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6vRzMPvFEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6vRzMfvFEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_JMf1QPvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JMgcUPvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_LHosQPvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/totalCost"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LHpTUPvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_OoVy4PvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/start_time"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OoVy4fvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_RWQxsPvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/end_time"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RWQxsfvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_S9tQoPvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/start_date"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S9tQofvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_XQ_qwPvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/end_date"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XRAR0PvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_XursUPvHEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/refuelEnabled"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XursUfvHEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1WLjYPvMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/chargingEnabled"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1WLjYfvMEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_5S4CcPvMEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Reservation/duration"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_5S4CcfvMEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6vRzMvvFEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6vRzM_vFEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//Reservation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6vP-AfvFEeu1mIkM2eXlaA" x="420" y="256" width="181" height="169"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AF2yIPvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AF6cgPvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AF6cgfvNEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AF6cgvvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AF6cg_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AF6chPvNEeu1mIkM2eXlaA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_06Kq4PvOEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Reservation.ecore#//PastReservation/paymentDetails"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_06Kq4fvOEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AF6chfvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AF6chvvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AF6ch_vNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AF6ciPvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AF6cifvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//PastReservation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AF2yIfvNEeu1mIkM2eXlaA" x="236" y="500" width="147" height="75"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_BLaE8PvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BLasAPvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BLasAfvNEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BLasAvvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BLasA_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BLasBPvNEeu1mIkM2eXlaA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="_7Sp28PvOEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Reservation.ecore#//CurrentReservation/extendReservation"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7SqeAPvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_9YapkPvOEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Reservation.ecore#//CurrentReservation/completeReservation"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9YapkfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BLasBfvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BLasBvvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_BLasB_vNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BLasCPvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BLasCfvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//CurrentReservation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BLaE8fvNEeu1mIkM2eXlaA" x="448" y="520" width="125" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CBxFMPvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CBxFMvvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CBxFM_vNEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CBxFNPvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CBxFNfvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CBxFNvvNEeu1mIkM2eXlaA" type="7002">
+      <children xmi:type="notation:Node" xmi:id="__k5IMPvOEeu1mIkM2eXlaA" type="3002">
+        <element xmi:type="ecore:EOperation" href="Reservation.ecore#//FutureReservation/startReservation"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__k5IMfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CBxFN_vNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CBxFOPvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CBxFOfvNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CBxFOvvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CBxFO_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//FutureReservation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CBxFMfvNEeu1mIkM2eXlaA" x="656" y="520" width="137" height="65"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fGgmwPvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fGhN0PvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fGh04PvNEeu1mIkM2eXlaA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_cFTqIPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cFTqIfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_d5x4cPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/locationId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_d5x4cfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_hDDWgPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hDDWgfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_irG5cPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/addonType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_irG5cfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_nRIpYPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/count"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nRIpYfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sPeysPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/price"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sPeysfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_uOD_QPvOEeu1mIkM2eXlaA" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Reservation.ecore#//Addon/rate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uOD_QfvOEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fGh04fvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fGh04vvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//Addon"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fGgmwfvNEeu1mIkM2eXlaA" x="720" y="232" width="145" height="137"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ipzuYPvNEeu1mIkM2eXlaA" type="2005" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ip2KoPvNEeu1mIkM2eXlaA" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ip2KofvNEeu1mIkM2eXlaA" type="7011">
+      <children xmi:type="notation:Node" xmi:id="_mu8-0PvNEeu1mIkM2eXlaA" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Reservation.ecore#//AddonType/ExtraSeat"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mu-M8PvNEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_pphSgPvNEeu1mIkM2eXlaA" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Reservation.ecore#//AddonType/Food"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pphSgfvNEeu1mIkM2eXlaA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_vbsFcPvNEeu1mIkM2eXlaA" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Reservation.ecore#//AddonType/Headset"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vbsFcfvNEeu1mIkM2eXlaA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ip2KovvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ip2Ko_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ip2KpPvNEeu1mIkM2eXlaA" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ip2KpfvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ip2KpvvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="Reservation.ecore#//AddonType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipzuYfvNEeu1mIkM2eXlaA" x="716" y="88" width="109" height="89"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zz7RAPvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zz_icPvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zz_icfvNEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zz_icvvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zz_ic_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_z0AJgPvNEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_z0AJgfvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_z0AJgvvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_z0AJg_vNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_z0AJhPvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_z0AJhfvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//Customer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zz7RAfvNEeu1mIkM2eXlaA" x="224" y="88" width="89" height="77"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_2UDrcPvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2UE5kPvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2UE5kfvNEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2UE5kvvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2UE5k_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2UE5lPvNEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2UE5lfvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2UE5lvvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2UE5l_vNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2UE5mPvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2UE5mfvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//Vehicle"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2UDrcfvNEeu1mIkM2eXlaA" x="72" y="212" width="93" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_3h6lsPvNEeu1mIkM2eXlaA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3h7MwPvNEeu1mIkM2eXlaA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_3h7MwfvNEeu1mIkM2eXlaA" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3h7MwvvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3h7Mw_vNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_3h7MxPvNEeu1mIkM2eXlaA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3h7MxfvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3h7MxvvNEeu1mIkM2eXlaA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_3h7Mx_vNEeu1mIkM2eXlaA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_3h7MyPvNEeu1mIkM2eXlaA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_3h7MyfvNEeu1mIkM2eXlaA"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Reservation.ecore#//Location"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3h6lsfvNEeu1mIkM2eXlaA" x="76" y="336" width="117" height="65"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yeg24PvFEeu1mIkM2eXlaA"/>
+  <element xmi:type="ecore:EPackage" href="Reservation.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_Qp5MMPvNEeu1mIkM2eXlaA" type="4004" source="_AF2yIPvNEeu1mIkM2eXlaA" target="_6vP-APvFEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Qp5MMfvNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qp5MMvvNEeu1mIkM2eXlaA" points="[0, -1, -96, 115]$[0, -116, -96, 0]$[95, -116, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Qp8PgPvNEeu1mIkM2eXlaA" id="(0.4956521739130435,0.019230769230769232)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Qp8PgfvNEeu1mIkM2eXlaA" id="(0.0055248618784530384,0.8579881656804734)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_U8QZQPvNEeu1mIkM2eXlaA" type="4004" source="_BLaE8PvNEeu1mIkM2eXlaA" target="_6vP-APvFEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_U8QZQfvNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U8QZQvvNEeu1mIkM2eXlaA" points="[-5, 0, 0, 97]$[-6, -91, -1, 6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U8S1gPvNEeu1mIkM2eXlaA" id="(0.45,0.038461538461538464)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U8S1gfvNEeu1mIkM2eXlaA" id="(0.46408839779005523,0.9644970414201184)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_YWcoMPvNEeu1mIkM2eXlaA" type="4004" source="_CBxFMPvNEeu1mIkM2eXlaA" target="_6vP-APvFEeu1mIkM2eXlaA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_YWcoMfvNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YWcoMvvNEeu1mIkM2eXlaA" points="[6, 0, 108, 116]$[6, -116, 108, 0]$[-101, -116, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YWedYPvNEeu1mIkM2eXlaA" id="(0.46,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YWedYfvNEeu1mIkM2eXlaA" id="(0.994475138121547,0.8520710059171598)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5Li18PvNEeu1mIkM2eXlaA" type="4002" source="_6vP-APvFEeu1mIkM2eXlaA" target="_zz7RAPvNEeu1mIkM2eXlaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5LjdAPvNEeu1mIkM2eXlaA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5LkEEPvNEeu1mIkM2eXlaA" x="-19" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5LkrIPvNEeu1mIkM2eXlaA" visible="false" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5LkrIfvNEeu1mIkM2eXlaA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5Li18fvNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Reservation.ecore#//Reservation/customer"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Li18vvNEeu1mIkM2eXlaA" points="[0, 0, 192, 94]$[-192, -91, 0, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5LyGgPvNEeu1mIkM2eXlaA" id="(0.2596685082872928,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5LyGgfvNEeu1mIkM2eXlaA" id="(0.5730337078651685,0.961038961038961)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9DILgPvNEeu1mIkM2eXlaA" type="4002" source="_6vP-APvFEeu1mIkM2eXlaA" target="_2UDrcPvNEeu1mIkM2eXlaA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9DJZoPvNEeu1mIkM2eXlaA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9DJZofvNEeu1mIkM2eXlaA" x="16" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9DJZovvNEeu1mIkM2eXlaA" visible="false" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9DJZo_vNEeu1mIkM2eXlaA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9DIykPvNEeu1mIkM2eXlaA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Reservation.ecore#//Reservation/vehicle"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9DIykfvNEeu1mIkM2eXlaA" points="[0, 0, 256, 41]$[-255, -41, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9DL14PvNEeu1mIkM2eXlaA" id="(0.0,0.34911242603550297)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9DL14fvNEeu1mIkM2eXlaA" id="(0.989247311827957,0.7654320987654321)"/>
+  </edges>
+</notation:Diagram>

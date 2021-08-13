@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Vehicle -->
+      <package
+            uri="com.tum.vsms.Vehicle"
+            class="com.tum.vsms.model.Vehicle.VehiclePackage"
+            genModel="model/Vehicle/Vehicle.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated User -->
+      <package
+            uri="com.tum.vsms.User"
+            class="com.tum.vsms.model.User.UserPackage"
+            genModel="model/User/User.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Maintenance -->
+      <package
+            uri="com.tum.vsms.Maintenance"
+            class="com.tum.vsms.Maintenance.Maintenance.MaintenancePackage"
+            genModel="model/Maintenance/Maintenance.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Location -->
+      <package
+            uri="com.tum.vsms.Location"
+            class="com.tum.vsms.Location.Location.LocationPackage"
+            genModel="model/Location/Location.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Reservation -->
+      <package
+            uri="com.tum.vsms.Reservation"
+            class="com.tum.vsms.Reservation.Reservation.ReservationPackage"
+            genModel="model/Reservation/Reservation.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Parking -->
+      <package
+            uri="com.tum.vsms.Parking"
+            class="com.tum.vsms.Parking.Parking.ParkingPackage"
+            genModel="model/Parking/Parking.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Payment -->
+      <package
+            uri="com.tum.vsms.Payment"
+            class="com.tum.vsms.Payment.Payment.PaymentPackage"
+            genModel="model/Payment/Payment.genmodel"/>
+   </extension>
+
+</plugin>

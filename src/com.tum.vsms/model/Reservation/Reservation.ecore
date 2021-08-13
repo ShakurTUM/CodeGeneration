@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Reservation" nsURI="com.tum.vsms.Reservation" nsPrefix="com.tum.vsms.Reservation">
+  <eClassifiers xsi:type="ecore:EClass" name="Reservation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalCost" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start_time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="end_time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start_date" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="end_date" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refuelEnabled" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="chargingEnabled" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="customer" eType="#//Customer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vehicle" eType="#//Vehicle"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="start_location" eType="#//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="end_location" eType="#//Location"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PastReservation" eSuperTypes="#//Reservation">
+    <eOperations name="paymentDetails"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CurrentReservation" eSuperTypes="#//Reservation">
+    <eOperations name="extendReservation"/>
+    <eOperations name="completeReservation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FutureReservation" eSuperTypes="#//Reservation">
+    <eOperations name="startReservation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Addon">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="locationId" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="addonType" eType="#//AddonType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="price" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="AddonType">
+    <eLiterals name="ExtraSeat" literal="ExtraSeat"/>
+    <eLiterals name="Food" literal="Food"/>
+    <eLiterals name="Headset"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Customer"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Vehicle"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Location"/>
+</ecore:EPackage>

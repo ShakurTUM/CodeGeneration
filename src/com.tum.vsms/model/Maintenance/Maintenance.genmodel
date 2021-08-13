@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.tum.vsms/src" modelPluginID="com.tum.vsms"
+    modelName="Maintenance" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>Maintenance.ecore</foreignModel>
+  <genPackages prefix="Maintenance" basePackage="com.tum.vsms.Maintenance" disposableProviderFactory="true"
+      ecorePackage="Maintenance.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Maintenance.ecore#//MaintenanceStatus">
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//MaintenanceStatus/Started"/>
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//MaintenanceStatus/Current"/>
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//MaintenanceStatus/Completed"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Maintenance.ecore#//FuelType">
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//FuelType/Petrol"/>
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//FuelType/Diesel"/>
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//FuelType/Octane"/>
+      <genEnumLiterals ecoreEnumLiteral="Maintenance.ecore#//FuelType/Gasoline"/>
+    </genEnums>
+    <genClasses ecoreClass="Maintenance.ecore#//Maintenance">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/reservationId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/customerId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/cost"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/start_date"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/end_date"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/requiredManpower"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Maintenance/requiredTime"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Maintenance.ecore#//Maintenance/vehicle"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Maintenance.ecore#//Maintenance/location"/>
+    </genClasses>
+    <genClasses ecoreClass="Maintenance.ecore#//Vehicle"/>
+    <genClasses ecoreClass="Maintenance.ecore#//Location"/>
+    <genClasses ecoreClass="Maintenance.ecore#//Repair">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Repair/issueDetails"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Repair/requiredTools"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Repair/materials"/>
+    </genClasses>
+    <genClasses ecoreClass="Maintenance.ecore#//Recharge">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Recharge/requiredCharge"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Recharge/amount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Recharge/rate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Recharge/currentCharge"/>
+    </genClasses>
+    <genClasses ecoreClass="Maintenance.ecore#//Refuel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Refuel/currentFuel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Refuel/requiredFuel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Refuel/fuelType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Maintenance.ecore#//Refuel/amount"/>
+    </genClasses>
+    <genClasses ecoreClass="Maintenance.ecore#//Relocate">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Maintenance.ecore#//Relocate/destination"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

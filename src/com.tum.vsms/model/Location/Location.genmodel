@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.tum.vsms/src" modelPluginID="com.tum.vsms"
+    modelName="Location" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>Location.ecore</foreignModel>
+  <genPackages prefix="Location" basePackage="com.tum.vsms.Location" disposableProviderFactory="true"
+      ecorePackage="Location.ecore#/">
+    <genClasses ecoreClass="Location.ecore#//Location">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Location/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Location/code"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Location/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Location/latitude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Location/longitude"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Location.ecore#//Location/address"/>
+    </genClasses>
+    <genClasses ecoreClass="Location.ecore#//Origin"/>
+    <genClasses ecoreClass="Location.ecore#//Destination"/>
+    <genClasses ecoreClass="Location.ecore#//Address">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Address/houseNumber"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Address/street"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Address/city"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Address/zipcode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Location.ecore#//Address/country"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

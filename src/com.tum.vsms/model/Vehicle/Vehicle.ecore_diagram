@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_VD0N8Ip7EeuknMup4-it7w" type="Ecore" name="Vehicle.ecore_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_b9Fy4Ip7EeuknMup4-it7w" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_b9JdQIp7EeuknMup4-it7w" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_b9KEUIp7EeuknMup4-it7w" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_fR6ZoIp7EeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fR6ZoYp7EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_DwIqMIp8EeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/vehicleType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DwJRQIp8EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_A66h0IqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/license"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A66h0YqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_HtGnUIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/registration"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HtGnUYqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_KpDbEIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/brand"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KpECIIqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_N5-ZQIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/model"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N5-ZQYqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_PrtcoIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/year"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PrtcoYqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_RUweEIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/color"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RUweEYqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_TrDnEIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/availableSeat"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TrDnEYqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_W14kUIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/additionalSeat"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_W15LYIqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_tlmmsPghEeu2otcK7NBQ6Q" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Vehicle/vehicleId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tlnNwPghEeu2otcK7NBQ6Q"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_b9KrYIp7EeuknMup4-it7w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_b9KrYYp7EeuknMup4-it7w"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Vehicle.ecore#//Vehicle"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9GZ8Ip7EeuknMup4-it7w" x="288" y="48" width="145" height="205"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_iFX_wIp7EeuknMup4-it7w" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iFYm0Ip7EeuknMup4-it7w" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_iFZN4Ip7EeuknMup4-it7w" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_leAIcIp7EeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Electric/batteryState"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_leAIcYp7EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_a9R3gIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Electric/capacity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a9R3gYqCEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eEVIAIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Electric/charger"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eEVIAYqCEeuknMup4-it7w"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_iFZN4Yp7EeuknMup4-it7w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_iFZN4op7EeuknMup4-it7w"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Vehicle.ecore#//Electric"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFX_wYp7EeuknMup4-it7w" x="200" y="336" width="121" height="69"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_kOSNAIp7EeuknMup4-it7w" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kOUpQIp7EeuknMup4-it7w" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_kOVQUIp7EeuknMup4-it7w" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_yR__YIp7EeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Traditional/capacity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yR__YYp7EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_GamFUIp8EeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Traditional/fuelType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GamFUYp8EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_gPXcMIqCEeuknMup4-it7w" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Traditional/currentFuelLevel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gPXcMYqCEeuknMup4-it7w"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_kOVQUYp7EeuknMup4-it7w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_kOVQUop7EeuknMup4-it7w"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Vehicle.ecore#//Traditional"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kOSNAYp7EeuknMup4-it7w" x="400" y="332" width="145" height="69"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1_MC0Ip7EeuknMup4-it7w" type="2005" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1_PGIIp7EeuknMup4-it7w" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1_PtMIp7EeuknMup4-it7w" type="7011">
+      <children xmi:type="notation:Node" xmi:id="_9-8usIp7EeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//FuelType/Petrol"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9-8usYp7EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_98JDkIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//FuelType/Diesel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_98JDkYqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-umbQIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//FuelType/Octane"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-umbQYqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="__z4BQIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//FuelType/Gasoline"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__z4BQYqBEeuknMup4-it7w"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1_PtMYp7EeuknMup4-it7w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1_PtMop7EeuknMup4-it7w"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="Vehicle.ecore#//FuelType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_N4AIp7EeuknMup4-it7w" x="564" y="220" width="106" height="85"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_5vUskIp7EeuknMup4-it7w" type="2005" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5vXI0Ip7EeuknMup4-it7w" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_5vXv4Ip7EeuknMup4-it7w" type="7011">
+      <children xmi:type="notation:Node" xmi:id="_81lS4Ip7EeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/Economy"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_81lS4Yp7EeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_0LdzsIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/Compact"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0LeawIqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1FucgIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/MidSize"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1FvDkIqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1-U4cIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/FullSize"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1-VfgIqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_3I2K0IqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/Premium"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3I2x4IqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_4PK5sIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/Luxary"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4PK5sYqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7ZoqkIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/Suv"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7ZoqkYqBEeuknMup4-it7w"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_8K8ywIqBEeuknMup4-it7w" type="3009">
+        <element xmi:type="ecore:EEnumLiteral" href="Vehicle.ecore#//VehicleType/Van"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8K8ywYqBEeuknMup4-it7w"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5vXv4Yp7EeuknMup4-it7w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5vXv4op7EeuknMup4-it7w"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="Vehicle.ecore#//VehicleType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5vVToIp7EeuknMup4-it7w" x="64" y="148" width="109" height="149"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_G15GkPgfEeuuSMZUE3tsrg" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G19YAPgfEeuuSMZUE3tsrg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_G1-mIPgfEeuuSMZUE3tsrg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_LBlD4PgfEeuuSMZUE3tsrg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Position/locationName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_LBlq8PgfEeuuSMZUE3tsrg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ULl8YPgfEeuuSMZUE3tsrg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Position/latitude"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ULnxkPgfEeuuSMZUE3tsrg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_YJQEwPgfEeuuSMZUE3tsrg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="Vehicle.ecore#//Position/longitude"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YJQEwfgfEeuuSMZUE3tsrg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_G1-mIfgfEeuuSMZUE3tsrg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_G1-mIvgfEeuuSMZUE3tsrg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="Vehicle.ecore#//Position"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G15toPgfEeuuSMZUE3tsrg" x="508" y="64" width="137" height="69"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VD01AIp7EeuknMup4-it7w"/>
+  <element xmi:type="ecore:EPackage" href="Vehicle.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_O9AyUIp8EeuknMup4-it7w" type="4004" source="_iFX_wIp7EeuknMup4-it7w" target="_b9Fy4Ip7EeuknMup4-it7w">
+    <styles xmi:type="notation:FontStyle" xmi:id="_O9AyUYp8EeuknMup4-it7w" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O9AyUop8EeuknMup4-it7w" points="[27, -56, -73, 154]$[51, -107, -49, 103]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tg3_oPiNEeupsu2zTOfl2w" id="(0.32413793103448274,0.9951219512195122)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_O9DOkIp8EeuknMup4-it7w" type="4004" source="_kOSNAIp7EeuknMup4-it7w" target="_b9Fy4Ip7EeuknMup4-it7w">
+    <styles xmi:type="notation:FontStyle" xmi:id="_O9D1oIp8EeuknMup4-it7w" fontName=".AppleSystemUIFont"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O9D1oYp8EeuknMup4-it7w" points="[-33, -64, 75, 150]$[-56, -111, 52, 103]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t_9IUPiNEeupsu2zTOfl2w" id="(0.6206896551724138,0.9804878048780488)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_H-2i0PhYEeupsu2zTOfl2w" type="4003" source="_b9Fy4Ip7EeuknMup4-it7w" target="_G15GkPgfEeuuSMZUE3tsrg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-4_EPhYEeupsu2zTOfl2w" visible="false" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-4_EfhYEeupsu2zTOfl2w" x="28" y="95"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H-4_EvhYEeupsu2zTOfl2w" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H-4_E_hYEeupsu2zTOfl2w" x="-7" y="-13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_H-3J4PhYEeupsu2zTOfl2w" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="ecore:EReference" href="Vehicle.ecore#//Vehicle/position"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H-3w8PhYEeupsu2zTOfl2w" points="[5, -2, -75, 0]$[80, -2, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H_HBgPhYEeupsu2zTOfl2w" id="(0.9655172413793104,0.22439024390243903)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H_HBgfhYEeupsu2zTOfl2w" id="(0.0,0.43478260869565216)"/>
+  </edges>
+</notation:Diagram>
